@@ -52,13 +52,7 @@ namespace TexturePacker.RectangleBinPack.TexturePack
         Images = images;
       }
 
-      public bool IsValid
-      {
-        get
-        {
-          return Images != null;
-        }
-      }
+      public bool IsValid => Images != null;
     }
 
     private PxSize2D m_maxTextureSize;

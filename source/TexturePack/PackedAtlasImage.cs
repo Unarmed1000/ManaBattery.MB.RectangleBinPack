@@ -28,7 +28,6 @@
 //****************************************************************************************************************************************************
 
 using MB.Base.MathEx.Pixel;
-using System;
 using System.Diagnostics.CodeAnalysis;
 
 namespace TexturePacker.RectangleBinPack.TexturePack
@@ -48,29 +47,21 @@ namespace TexturePacker.RectangleBinPack.TexturePack
       DstRectanglePx = dstRectanglePx;
       IsRotated = isRotated;
     }
+
     public static bool operator ==(PackedAtlasImage lhs, PackedAtlasImage rhs)
-    {
-      return lhs.SrcImageInfo == rhs.SrcImageInfo && lhs.DstRectanglePx == rhs.DstRectanglePx && lhs.IsRotated == rhs.IsRotated;
-    }
+      => lhs.SrcImageInfo == rhs.SrcImageInfo && lhs.DstRectanglePx == rhs.DstRectanglePx && lhs.IsRotated == rhs.IsRotated;
 
-    public static bool operator !=(PackedAtlasImage lhs, PackedAtlasImage rhs)
-    {
-      return !(lhs == rhs);
-    }
+    public static bool operator !=(PackedAtlasImage lhs, PackedAtlasImage rhs) => !(lhs == rhs);
 
 
-    public override bool Equals([NotNullWhen(true)] object? obj) => obj is PackedAtlasImage image && (this == image);
+    public override bool Equals([NotNullWhen(true)] object? obj) 
+      => obj is PackedAtlasImage image && (this == image);
 
 
-    public override int GetHashCode()
-    {
-      return AtlasImageInfo.GetHashCode(SrcImageInfo) ^ DstRectanglePx.GetHashCode() ^ IsRotated.GetHashCode();
-    }
+    public override int GetHashCode() 
+      => AtlasImageInfo.GetHashCode(SrcImageInfo) ^ DstRectanglePx.GetHashCode() ^ IsRotated.GetHashCode();
 
 
-    public bool Equals(PackedAtlasImage other)
-    {
-      return this == other;
-    }
+    public bool Equals(PackedAtlasImage other) => this == other;
   }
 }
