@@ -54,11 +54,11 @@ namespace TexturePacker.RectangleBinPack.TexturePack
     public static bool operator !=(PackedAtlasImage lhs, PackedAtlasImage rhs) => !(lhs == rhs);
 
 
-    public override bool Equals([NotNullWhen(true)] object? obj) 
+    public override bool Equals([NotNullWhen(true)] object? obj)
       => obj is PackedAtlasImage image && (this == image);
 
 
-    public override int GetHashCode() 
+    public override int GetHashCode()
       => AtlasImageInfo.GetHashCode(SrcImageInfo) ^ DstRectanglePx.GetHashCode() ^ IsRotated.GetHashCode();
 
 
