@@ -40,7 +40,7 @@ using MB.Base.MathEx.Pixel;
 using System;
 using System.Collections.Generic;
 
-namespace TexturePacker.RectangleBinPack.BinPack
+namespace MB.RectangleBinPack.BinPack
 {
   /// <summary>
   /// MaxRectsBinPack implements the MAXRECTS data structure and different bin packing algorithms that use this structure.

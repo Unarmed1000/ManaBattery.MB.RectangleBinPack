@@ -27,7 +27,7 @@
 // For more information, please refer to<https://unlicense.org>
 //****************************************************************************************************************************************************
 
-namespace TexturePacker.RectangleBinPack.TexturePack
+namespace MB.RectangleBinPack.TexturePack
 {
   public enum TextureSizeRestriction
   {

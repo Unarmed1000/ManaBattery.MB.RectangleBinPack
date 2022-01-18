@@ -37,7 +37,7 @@
 using MB.Base.MathEx.Pixel;
 using System.Collections.Generic;
 
-namespace TexturePacker.RectangleBinPack.BinPack
+namespace MB.RectangleBinPack.BinPack
 {
   internal sealed class DisjointRectCollection
   {

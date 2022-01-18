@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <Company>Mana Battery ApS</Company>
-    <Product>MB.Base</Product>
+    <Product>MB.RectangleBinPack</Product>
     <Authors>Mana Battery ApS</Authors>
     <Copyright>Copyright (c) Mana Battery ApS 2021</Copyright>
     <RepositoryType>git</RepositoryType>

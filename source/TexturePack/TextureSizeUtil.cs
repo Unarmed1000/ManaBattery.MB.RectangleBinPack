@@ -32,7 +32,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace TexturePacker.RectangleBinPack.TexturePack
+namespace MB.RectangleBinPack.TexturePack
 {
   public static class TextureSizeUtil
   {

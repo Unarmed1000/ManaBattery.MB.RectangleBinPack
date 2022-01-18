@@ -31,7 +31,7 @@ using MB.Base.MathEx.Pixel;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace TexturePacker.RectangleBinPack.TexturePack
+namespace MB.RectangleBinPack.TexturePack
 {
   /// <summary>
   /// Contains information about the current pack operation

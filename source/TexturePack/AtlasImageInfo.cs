@@ -31,7 +31,7 @@ using MB.Base.MathEx.Pixel;
 using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace TexturePacker.RectangleBinPack.TexturePack
+namespace MB.RectangleBinPack.TexturePack
 {
   /// <summary>
   /// Source atlas image information
