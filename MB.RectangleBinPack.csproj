@@ -13,7 +13,7 @@
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
     <PackageId>ManaBattery.MB.RectangleBinPack</PackageId>
     <Description>A minimal rectangular bin packing library often used for texture atlas creation.</Description>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <PackageProjectUrl>https://github.com/Unarmed1000/ManaBattery.MB.RectangleBinPack</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Unarmed1000/ManaBattery.MB.RectangleBinPack</RepositoryUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -28,11 +28,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0">
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="9.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="ManaBattery.MB.Base_Minimal" Version="0.0.3" />
+    <PackageReference Include="ManaBattery.MB.Base_Minimal" Version="0.0.4" />
   </ItemGroup>
 
 </Project>
